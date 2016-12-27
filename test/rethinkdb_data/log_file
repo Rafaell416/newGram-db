@@ -97,3 +97,43 @@
 2016-12-27T09:31:37.708986000 3515.352869s info: Table 328e94ff-ea13-43a1-a22c-1cbcbf012822: Deleted the table.
 2016-12-27T09:31:37.721791000 3515.365676s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/d8997dac-9820-4290-9a25-065c06c1f3cc
 2016-12-27T09:31:37.721816000 3515.365700s info: Table d8997dac-9820-4290-9a25-065c06c1f3cc: Deleted the table.
+2016-12-27T10:35:13.830190000 7331.581297s info: Table e8063a32-c7c0-4483-a680-7ca3397dd47f: Starting a new Raft election for term 1.
+2016-12-27T10:35:13.830643000 7331.581749s info: Table e8063a32-c7c0-4483-a680-7ca3397dd47f: Added replica on this server.
+2016-12-27T10:35:13.835633000 7331.586739s info: Table e8063a32-c7c0-4483-a680-7ca3397dd47f: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:35:14.194534000 7331.945640s info: Table d9d9c552-a467-47c3-bb8f-738a6b700ced: Starting a new Raft election for term 1.
+2016-12-27T10:35:14.194833000 7331.945939s info: Table d9d9c552-a467-47c3-bb8f-738a6b700ced: Added replica on this server.
+2016-12-27T10:35:14.199846000 7331.950952s info: Table d9d9c552-a467-47c3-bb8f-738a6b700ced: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:35:14.536435000 7332.287572s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/d9d9c552-a467-47c3-bb8f-738a6b700ced
+2016-12-27T10:35:14.536460000 7332.287596s info: Table d9d9c552-a467-47c3-bb8f-738a6b700ced: Deleted the table.
+2016-12-27T10:35:14.554690000 7332.305827s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/e8063a32-c7c0-4483-a680-7ca3397dd47f
+2016-12-27T10:35:14.554855000 7332.305992s info: Table e8063a32-c7c0-4483-a680-7ca3397dd47f: Deleted the table.
+2016-12-27T10:35:57.475355000 7375.227793s info: Table e57848ca-1429-41ae-914e-2efd971cbd19: Starting a new Raft election for term 1.
+2016-12-27T10:35:57.475658000 7375.228096s info: Table e57848ca-1429-41ae-914e-2efd971cbd19: Added replica on this server.
+2016-12-27T10:35:57.480687000 7375.233125s info: Table e57848ca-1429-41ae-914e-2efd971cbd19: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:35:57.838953000 7375.591391s info: Table 1c9be296-4928-4fc2-96f3-be2d51df34bd: Starting a new Raft election for term 1.
+2016-12-27T10:35:57.839253000 7375.591691s info: Table 1c9be296-4928-4fc2-96f3-be2d51df34bd: Added replica on this server.
+2016-12-27T10:35:57.844172000 7375.596610s info: Table 1c9be296-4928-4fc2-96f3-be2d51df34bd: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:35:58.207526000 7375.959964s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/1c9be296-4928-4fc2-96f3-be2d51df34bd
+2016-12-27T10:35:58.207551000 7375.959989s info: Table 1c9be296-4928-4fc2-96f3-be2d51df34bd: Deleted the table.
+2016-12-27T10:35:58.225602000 7375.978040s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/e57848ca-1429-41ae-914e-2efd971cbd19
+2016-12-27T10:35:58.225751000 7375.978189s info: Table e57848ca-1429-41ae-914e-2efd971cbd19: Deleted the table.
+2016-12-27T10:55:33.599721000 8551.385888s info: Table 0d636ebe-6101-475a-afa7-9021981400a7: Starting a new Raft election for term 1.
+2016-12-27T10:55:33.600029000 8551.386196s info: Table 0d636ebe-6101-475a-afa7-9021981400a7: Added replica on this server.
+2016-12-27T10:55:33.605128000 8551.391296s info: Table 0d636ebe-6101-475a-afa7-9021981400a7: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:55:33.964016000 8551.750183s info: Table 89dd1e10-7d95-4bdd-970e-469b476c34cb: Starting a new Raft election for term 1.
+2016-12-27T10:55:33.964320000 8551.750487s info: Table 89dd1e10-7d95-4bdd-970e-469b476c34cb: Added replica on this server.
+2016-12-27T10:55:33.969675000 8551.755842s info: Table 89dd1e10-7d95-4bdd-970e-469b476c34cb: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T10:55:34.379335000 8552.165529s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/0d636ebe-6101-475a-afa7-9021981400a7
+2016-12-27T10:55:34.379359000 8552.165552s info: Table 0d636ebe-6101-475a-afa7-9021981400a7: Deleted the table.
+2016-12-27T10:55:34.400249000 8552.186443s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/89dd1e10-7d95-4bdd-970e-469b476c34cb
+2016-12-27T10:55:34.400417000 8552.186610s info: Table 89dd1e10-7d95-4bdd-970e-469b476c34cb: Deleted the table.
+2016-12-27T11:09:48.525207000 9406.334676s info: Table f73d6c07-7ad6-4b69-943a-0ca6cd77d3e0: Starting a new Raft election for term 1.
+2016-12-27T11:09:48.525544000 9406.335013s info: Table f73d6c07-7ad6-4b69-943a-0ca6cd77d3e0: Added replica on this server.
+2016-12-27T11:09:48.531384000 9406.340854s info: Table f73d6c07-7ad6-4b69-943a-0ca6cd77d3e0: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T11:09:48.905268000 9406.714768s info: Table 3713f9d6-bb2c-481c-a75a-8b6568f49a30: Starting a new Raft election for term 1.
+2016-12-27T11:09:48.905577000 9406.715077s info: Table 3713f9d6-bb2c-481c-a75a-8b6568f49a30: Added replica on this server.
+2016-12-27T11:09:48.910952000 9406.720452s info: Table 3713f9d6-bb2c-481c-a75a-8b6568f49a30: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T11:09:49.249867000 9407.059367s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/3713f9d6-bb2c-481c-a75a-8b6568f49a30
+2016-12-27T11:09:49.249893000 9407.059393s info: Table 3713f9d6-bb2c-481c-a75a-8b6568f49a30: Deleted the table.
+2016-12-27T11:09:49.262524000 9407.072024s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/f73d6c07-7ad6-4b69-943a-0ca6cd77d3e0
+2016-12-27T11:09:49.262549000 9407.072049s info: Table f73d6c07-7ad6-4b69-943a-0ca6cd77d3e0: Deleted the table.
