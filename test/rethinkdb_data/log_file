@@ -1,0 +1,33 @@
+2016-12-26T13:13:14.164271000 0.011230s notice: Recursively removing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/tmp
+2016-12-26T13:13:14.166505000 0.013472s notice: Initializing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-26T13:13:14.166668000 0.013626s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rafaell416/Documents/newGram-db/test/rethinkdb_data' did not already exist or is empty.)
+2016-12-26T13:13:14.166729000 0.013688s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-26T13:13:14.175679000 0.022639s notice: Running on Darwin 15.6.0 x86_64
+2016-12-26T13:13:14.175773000 0.022732s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-26T13:13:14.286510000 0.133468s info: Automatically using cache size of 330 MB
+2016-12-26T13:13:14.288664000 0.135623s notice: Listening for intracluster connections on port 29015
+2016-12-26T13:13:14.291219000 0.138178s notice: Listening for client driver connections on port 28015
+2016-12-26T13:13:14.291471000 0.138429s notice: Listening for administrative HTTP connections on port 8080
+2016-12-26T13:13:14.291478000 0.138436s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-26T13:13:14.291488000 0.138446s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-26T13:13:14.291492000 0.138450s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-26T13:13:14.291501000 0.138460s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-26T13:13:14.291512000 0.138470s notice: Server ready, "Earlys_MacBook_Pro_local_3px" c3e726f3-16ab-4338-abcc-ef22daed228b
+2016-12-26T16:53:23.516219000 0.458551s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-26T16:53:23.532319000 0.474645s notice: Running on Darwin 15.6.0 x86_64
+2016-12-26T16:53:23.532406000 0.474729s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-26T16:53:23.577797000 0.520120s info: Automatically using cache size of 181 MB
+2016-12-26T16:53:23.581554000 0.523878s notice: Listening for intracluster connections on port 29015
+2016-12-26T16:53:23.584284000 0.526607s notice: Listening for client driver connections on port 28015
+2016-12-26T16:53:23.584570000 0.526893s notice: Listening for administrative HTTP connections on port 8080
+2016-12-26T16:53:23.584590000 0.526913s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-26T16:53:23.584601000 0.526924s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-26T16:53:23.584605000 0.526928s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-26T16:53:23.584615000 0.526938s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-26T16:53:23.584627000 0.526950s notice: Server ready, "Earlys_MacBook_Pro_local_3px" c3e726f3-16ab-4338-abcc-ef22daed228b
+2016-12-26T19:29:51.611953000 9388.838150s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: Starting a new Raft election for term 1.
+2016-12-26T19:29:51.612799000 9388.838997s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: Added replica on this server.
+2016-12-26T19:29:51.620159000 9388.846357s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T19:29:52.023317000 9389.249514s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: Starting a new Raft election for term 1.
+2016-12-26T19:29:52.023711000 9389.249908s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: Added replica on this server.
+2016-12-26T19:29:52.030592000 9389.256789s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: This server is Raft leader for term 1. Latest log index is 0.
