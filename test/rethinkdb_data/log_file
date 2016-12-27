@@ -1,33 +1,99 @@
-2016-12-26T13:13:14.164271000 0.011230s notice: Recursively removing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/tmp
-2016-12-26T13:13:14.166505000 0.013472s notice: Initializing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
-2016-12-26T13:13:14.166668000 0.013626s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rafaell416/Documents/newGram-db/test/rethinkdb_data' did not already exist or is empty.)
-2016-12-26T13:13:14.166729000 0.013688s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
-2016-12-26T13:13:14.175679000 0.022639s notice: Running on Darwin 15.6.0 x86_64
-2016-12-26T13:13:14.175773000 0.022732s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
-2016-12-26T13:13:14.286510000 0.133468s info: Automatically using cache size of 330 MB
-2016-12-26T13:13:14.288664000 0.135623s notice: Listening for intracluster connections on port 29015
-2016-12-26T13:13:14.291219000 0.138178s notice: Listening for client driver connections on port 28015
-2016-12-26T13:13:14.291471000 0.138429s notice: Listening for administrative HTTP connections on port 8080
-2016-12-26T13:13:14.291478000 0.138436s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2016-12-26T13:13:14.291488000 0.138446s notice: Listening on driver addresses: 127.0.0.1, ::1
-2016-12-26T13:13:14.291492000 0.138450s notice: Listening on http addresses: 127.0.0.1, ::1
-2016-12-26T13:13:14.291501000 0.138460s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2016-12-26T13:13:14.291512000 0.138470s notice: Server ready, "Earlys_MacBook_Pro_local_3px" c3e726f3-16ab-4338-abcc-ef22daed228b
-2016-12-26T16:53:23.516219000 0.458551s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
-2016-12-26T16:53:23.532319000 0.474645s notice: Running on Darwin 15.6.0 x86_64
-2016-12-26T16:53:23.532406000 0.474729s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
-2016-12-26T16:53:23.577797000 0.520120s info: Automatically using cache size of 181 MB
-2016-12-26T16:53:23.581554000 0.523878s notice: Listening for intracluster connections on port 29015
-2016-12-26T16:53:23.584284000 0.526607s notice: Listening for client driver connections on port 28015
-2016-12-26T16:53:23.584570000 0.526893s notice: Listening for administrative HTTP connections on port 8080
-2016-12-26T16:53:23.584590000 0.526913s notice: Listening on cluster addresses: 127.0.0.1, ::1
-2016-12-26T16:53:23.584601000 0.526924s notice: Listening on driver addresses: 127.0.0.1, ::1
-2016-12-26T16:53:23.584605000 0.526928s notice: Listening on http addresses: 127.0.0.1, ::1
-2016-12-26T16:53:23.584615000 0.526938s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
-2016-12-26T16:53:23.584627000 0.526950s notice: Server ready, "Earlys_MacBook_Pro_local_3px" c3e726f3-16ab-4338-abcc-ef22daed228b
-2016-12-26T19:29:51.611953000 9388.838150s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: Starting a new Raft election for term 1.
-2016-12-26T19:29:51.612799000 9388.838997s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: Added replica on this server.
-2016-12-26T19:29:51.620159000 9388.846357s info: Table 68a7618c-abe2-4c9c-b478-f8f16e755e06: This server is Raft leader for term 1. Latest log index is 0.
-2016-12-26T19:29:52.023317000 9389.249514s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: Starting a new Raft election for term 1.
-2016-12-26T19:29:52.023711000 9389.249908s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: Added replica on this server.
-2016-12-26T19:29:52.030592000 9389.256789s info: Table 2f93a719-0da1-4dbd-94f1-7b87775665e9: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T23:30:28.509216000 0.231443s notice: Recursively removing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/tmp
+2016-12-26T23:30:28.511230000 0.233465s notice: Initializing directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-26T23:30:28.511392000 0.233619s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rafaell416/Documents/newGram-db/test/rethinkdb_data' did not already exist or is empty.)
+2016-12-26T23:30:28.511453000 0.233680s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-26T23:30:28.523744000 0.245972s notice: Running on Darwin 15.6.0 x86_64
+2016-12-26T23:30:28.523827000 0.246053s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-26T23:30:28.637398000 0.359624s info: Automatically using cache size of 100 MB
+2016-12-26T23:30:28.637415000 0.359641s warn: Cache size does not leave much memory for server and query overhead (available memory: 806 MB).
+2016-12-26T23:30:28.637425000 0.359651s warn: Cache size is very low and may impact performance.
+2016-12-26T23:30:28.639052000 0.361278s notice: Listening for intracluster connections on port 29015
+2016-12-26T23:30:28.641856000 0.364083s notice: Listening for client driver connections on port 28015
+2016-12-26T23:30:28.642137000 0.364363s notice: Listening for administrative HTTP connections on port 8080
+2016-12-26T23:30:28.642143000 0.364369s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-26T23:30:28.642153000 0.364379s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-26T23:30:28.642157000 0.364383s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-26T23:30:28.642166000 0.364392s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-26T23:30:28.642177000 0.364403s notice: Server ready, "Earlys_MacBook_Pro_local_bm6" 6badd996-46ad-4c07-bf21-6690344c7dfb
+2016-12-26T23:34:31.253176000 242.980274s info: Table d8107ced-62c1-44d7-a25d-371b207407ee: Starting a new Raft election for term 1.
+2016-12-26T23:34:31.254024000 242.981121s info: Table d8107ced-62c1-44d7-a25d-371b207407ee: Added replica on this server.
+2016-12-26T23:34:31.260473000 242.987571s info: Table d8107ced-62c1-44d7-a25d-371b207407ee: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T23:34:31.872855000 243.599974s info: Table 524a1b0f-266c-4c29-ba21-42161b8930cc: Starting a new Raft election for term 1.
+2016-12-26T23:34:31.873782000 243.600900s info: Table 524a1b0f-266c-4c29-ba21-42161b8930cc: Added replica on this server.
+2016-12-26T23:34:31.880288000 243.607407s info: Table 524a1b0f-266c-4c29-ba21-42161b8930cc: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T23:53:32.254228000 1384.003899s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/524a1b0f-266c-4c29-ba21-42161b8930cc
+2016-12-26T23:53:32.254250000 1384.003920s info: Table 524a1b0f-266c-4c29-ba21-42161b8930cc: Deleted the table.
+2016-12-26T23:53:32.267869000 1384.017540s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/d8107ced-62c1-44d7-a25d-371b207407ee
+2016-12-26T23:53:32.267894000 1384.017564s info: Table d8107ced-62c1-44d7-a25d-371b207407ee: Deleted the table.
+2016-12-26T23:55:57.180263000 1528.932781s info: Table d6890c47-5a39-4961-8734-318e10903718: Starting a new Raft election for term 1.
+2016-12-26T23:55:57.180632000 1528.933150s info: Table d6890c47-5a39-4961-8734-318e10903718: Added replica on this server.
+2016-12-26T23:55:57.186155000 1528.938673s info: Table d6890c47-5a39-4961-8734-318e10903718: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T23:55:57.547839000 1529.300356s info: Table e970eddd-8713-42e1-ae56-5f5edba1de59: Starting a new Raft election for term 1.
+2016-12-26T23:55:57.548119000 1529.300636s info: Table e970eddd-8713-42e1-ae56-5f5edba1de59: Added replica on this server.
+2016-12-26T23:55:57.554038000 1529.306556s info: Table e970eddd-8713-42e1-ae56-5f5edba1de59: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-26T23:55:57.852079000 1529.604617s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/d6890c47-5a39-4961-8734-318e10903718
+2016-12-26T23:55:57.852103000 1529.604641s info: Table d6890c47-5a39-4961-8734-318e10903718: Deleted the table.
+2016-12-26T23:55:57.863319000 1529.615858s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/e970eddd-8713-42e1-ae56-5f5edba1de59
+2016-12-26T23:55:57.863343000 1529.615882s info: Table e970eddd-8713-42e1-ae56-5f5edba1de59: Deleted the table.
+2016-12-27T08:33:02.815050000 0.377107s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-12-27T08:33:02.828051000 0.390102s notice: Running on Darwin 15.6.0 x86_64
+2016-12-27T08:33:02.828158000 0.390207s notice: Loading data from directory /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data
+2016-12-27T08:33:02.866330000 0.428379s info: Automatically using cache size of 1173 MB
+2016-12-27T08:33:02.869477000 0.431526s notice: Listening for intracluster connections on port 29015
+2016-12-27T08:33:02.872207000 0.434256s notice: Listening for client driver connections on port 28015
+2016-12-27T08:33:02.872449000 0.434497s notice: Listening for administrative HTTP connections on port 8080
+2016-12-27T08:33:02.872455000 0.434504s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-12-27T08:33:02.872465000 0.434513s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-12-27T08:33:02.872469000 0.434517s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-12-27T08:33:02.872478000 0.434527s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-27T08:33:02.872489000 0.434538s notice: Server ready, "Earlys_MacBook_Pro_local_bm6" 6badd996-46ad-4c07-bf21-6690344c7dfb
+2016-12-27T08:35:39.784543000 157.349108s info: Table 1ece70fb-5b8c-487d-acb0-1f58328fffdb: Starting a new Raft election for term 1.
+2016-12-27T08:35:39.785062000 157.349627s info: Table 1ece70fb-5b8c-487d-acb0-1f58328fffdb: Added replica on this server.
+2016-12-27T08:35:39.790645000 157.355211s info: Table 1ece70fb-5b8c-487d-acb0-1f58328fffdb: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T08:35:40.389778000 157.954357s info: Table 5c31c489-fcdd-4112-9b1c-a67e1a184281: Starting a new Raft election for term 1.
+2016-12-27T08:35:40.390181000 157.954760s info: Table 5c31c489-fcdd-4112-9b1c-a67e1a184281: Added replica on this server.
+2016-12-27T08:35:40.395209000 157.959788s info: Table 5c31c489-fcdd-4112-9b1c-a67e1a184281: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T08:35:40.698625000 158.263204s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/1ece70fb-5b8c-487d-acb0-1f58328fffdb
+2016-12-27T08:35:40.698650000 158.263229s info: Table 1ece70fb-5b8c-487d-acb0-1f58328fffdb: Deleted the table.
+2016-12-27T08:35:40.709662000 158.274241s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/5c31c489-fcdd-4112-9b1c-a67e1a184281
+2016-12-27T08:35:40.709685000 158.274264s info: Table 5c31c489-fcdd-4112-9b1c-a67e1a184281: Deleted the table.
+2016-12-27T09:03:51.718048000 1849.316194s info: Table b303b970-8378-467a-972a-624685c50ab1: Starting a new Raft election for term 1.
+2016-12-27T09:03:51.718336000 1849.316482s info: Table b303b970-8378-467a-972a-624685c50ab1: Added replica on this server.
+2016-12-27T09:03:51.724795000 1849.322941s info: Table b303b970-8378-467a-972a-624685c50ab1: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:03:52.085644000 1849.683813s info: Table 6c759710-aa76-41e1-b0bf-76080ab3d50d: Starting a new Raft election for term 1.
+2016-12-27T09:03:52.085938000 1849.684106s info: Table 6c759710-aa76-41e1-b0bf-76080ab3d50d: Added replica on this server.
+2016-12-27T09:03:52.091586000 1849.689756s info: Table 6c759710-aa76-41e1-b0bf-76080ab3d50d: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:03:52.408798000 1850.006967s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/6c759710-aa76-41e1-b0bf-76080ab3d50d
+2016-12-27T09:03:52.408821000 1850.006990s info: Table 6c759710-aa76-41e1-b0bf-76080ab3d50d: Deleted the table.
+2016-12-27T09:03:52.425928000 1850.024098s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/b303b970-8378-467a-972a-624685c50ab1
+2016-12-27T09:03:52.425963000 1850.024131s info: Table b303b970-8378-467a-972a-624685c50ab1: Deleted the table.
+2016-12-27T09:28:41.862248000 3339.500793s info: Table 15993a3a-96fe-4cef-a8ce-10d76f7afce8: Starting a new Raft election for term 1.
+2016-12-27T09:28:41.862909000 3339.501453s info: Table 15993a3a-96fe-4cef-a8ce-10d76f7afce8: Added replica on this server.
+2016-12-27T09:28:41.868057000 3339.506601s info: Table 15993a3a-96fe-4cef-a8ce-10d76f7afce8: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:28:42.227343000 3339.865887s info: Table 17a39c02-b908-4c5f-96af-065d3a27c1c5: Starting a new Raft election for term 1.
+2016-12-27T09:28:42.227667000 3339.866210s info: Table 17a39c02-b908-4c5f-96af-065d3a27c1c5: Added replica on this server.
+2016-12-27T09:28:42.233101000 3339.871646s info: Table 17a39c02-b908-4c5f-96af-065d3a27c1c5: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:28:42.573430000 3340.211974s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/15993a3a-96fe-4cef-a8ce-10d76f7afce8
+2016-12-27T09:28:42.573456000 3340.211999s info: Table 15993a3a-96fe-4cef-a8ce-10d76f7afce8: Deleted the table.
+2016-12-27T09:28:42.585117000 3340.223661s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/17a39c02-b908-4c5f-96af-065d3a27c1c5
+2016-12-27T09:28:42.585141000 3340.223685s info: Table 17a39c02-b908-4c5f-96af-065d3a27c1c5: Deleted the table.
+2016-12-27T09:30:36.197719000 3453.839606s info: Table 63ffd82c-2e4f-4d84-9936-c1dfd03280df: Starting a new Raft election for term 1.
+2016-12-27T09:30:36.198015000 3453.839902s info: Table 63ffd82c-2e4f-4d84-9936-c1dfd03280df: Added replica on this server.
+2016-12-27T09:30:36.203050000 3453.844937s info: Table 63ffd82c-2e4f-4d84-9936-c1dfd03280df: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:30:36.566300000 3454.208221s info: Table 3a9f04cf-53d0-4dfc-8798-d2aa7c50158b: Starting a new Raft election for term 1.
+2016-12-27T09:30:36.566890000 3454.208811s info: Table 3a9f04cf-53d0-4dfc-8798-d2aa7c50158b: Added replica on this server.
+2016-12-27T09:30:36.572826000 3454.214747s info: Table 3a9f04cf-53d0-4dfc-8798-d2aa7c50158b: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:30:36.913563000 3454.555485s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/3a9f04cf-53d0-4dfc-8798-d2aa7c50158b
+2016-12-27T09:30:36.913588000 3454.555509s info: Table 3a9f04cf-53d0-4dfc-8798-d2aa7c50158b: Deleted the table.
+2016-12-27T09:30:36.925407000 3454.567328s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/63ffd82c-2e4f-4d84-9936-c1dfd03280df
+2016-12-27T09:30:36.925432000 3454.567352s info: Table 63ffd82c-2e4f-4d84-9936-c1dfd03280df: Deleted the table.
+2016-12-27T09:31:36.769628000 3514.413478s info: Table d8997dac-9820-4290-9a25-065c06c1f3cc: Starting a new Raft election for term 1.
+2016-12-27T09:31:36.769926000 3514.413775s info: Table d8997dac-9820-4290-9a25-065c06c1f3cc: Added replica on this server.
+2016-12-27T09:31:36.775721000 3514.419571s info: Table d8997dac-9820-4290-9a25-065c06c1f3cc: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:31:37.368874000 3515.012760s info: Table 328e94ff-ea13-43a1-a22c-1cbcbf012822: Starting a new Raft election for term 1.
+2016-12-27T09:31:37.369656000 3515.013541s info: Table 328e94ff-ea13-43a1-a22c-1cbcbf012822: Added replica on this server.
+2016-12-27T09:31:37.374824000 3515.018708s info: Table 328e94ff-ea13-43a1-a22c-1cbcbf012822: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-27T09:31:37.708961000 3515.352846s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/328e94ff-ea13-43a1-a22c-1cbcbf012822
+2016-12-27T09:31:37.708986000 3515.352869s info: Table 328e94ff-ea13-43a1-a22c-1cbcbf012822: Deleted the table.
+2016-12-27T09:31:37.721791000 3515.365676s notice: Removing file /Users/rafaell416/Documents/newGram-db/test/rethinkdb_data/d8997dac-9820-4290-9a25-065c06c1f3cc
+2016-12-27T09:31:37.721816000 3515.365700s info: Table d8997dac-9820-4290-9a25-065c06c1f3cc: Deleted the table.
