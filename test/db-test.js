@@ -6,6 +6,7 @@
  const Db = require('../')
  const dbName = `newgram_${uuid.v4()}`
  const db = new Db({db: dbName})
+ const fixtures = require('./fixtures')
 
  test.before('setup database', async t => {
    await db.connect()
@@ -25,13 +26,8 @@
  test('save image', async t => {
    t.is(typeof db.saveImage, 'function', 'saveImage is a function')
 
-   let image = {
-     description: 'an #awesome pivture with #tags #newgram',
-     url: `https://newgram.test/${uuid.v4()}.jpg`,
-     likes: 0,
-     liked: false,
-     user_id: uuid.uuid()
-   }
+   let image = fixtures.getImage()
+
    let created = await db.saveImage(image)
    t.is(created.description, image.description)
    t.is(created.url, image.url)
@@ -42,4 +38,15 @@
    t.is(created.public_id, uuid.encode(created.id))
    t.is(typeof created.id, 'string')
    t.truthy(created.createdAt)
+ })
+
+ test('Like image', async t => {
+   t.is(typeof db.likeImage, 'function', 'LikeImage is a function')
+
+   let image = fixtures.getImage()
+   let create = await db.saveImage(image)
+   let result = await db.likeImage(create.public_id)
+
+   t.true(result.liked)
+   t.is(result.likes, image.likes + 1)
  })
