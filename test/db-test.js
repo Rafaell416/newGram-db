@@ -93,3 +93,15 @@
    t.is(typeof created.id, 'string')
    t.truthy(created.createdAt)
  })
+
+ test('get user', async t => {
+   let db = t.context.db
+
+   t.is(typeof db.getUser, 'function', 'getUser is a function')
+
+   let user = fixtures.getUser()
+   let created = await db.saveUser(user)
+   let result = await db.getUser(user.username)
+
+   t.deepEqual(created, result)
+ })
