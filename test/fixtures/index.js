@@ -1,7 +1,6 @@
 'use strict'
 
 const uuid = require('uuid-base62')
-
 const fixtures = {
   getImage () {
     return {
@@ -18,6 +17,14 @@ const fixtures = {
       images.push(this.getImage())
     }
     return images
+  },
+  getUser () {
+    return {
+      name: 'A random user',
+      username: `user_${uuid.v4()}`,
+      password: uuid.uuid(),
+      email: `${uuid.v4()}@newgram.test`
+    }
   }
 }
 

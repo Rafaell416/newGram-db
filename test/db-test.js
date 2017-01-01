@@ -5,7 +5,7 @@
  const r = require('rethinkdb')
  const Db = require('../')
  const fixtures = require('./fixtures')
-
+// test for that runs before each test
  test.beforeEach('setup database', async t => {
    const dbName = `newgram_${uuid.v4()}`
    const db = new Db({db: dbName})
@@ -14,7 +14,7 @@
    t.context.dbName = dbName
    t.true(db.connected, 'should be connected')
  })
-
+// test for test that run after each test
  test.afterEach.always('cleanup database', async t => {
    let db = t.context.db
    let dbName = t.context.dbName
@@ -24,7 +24,7 @@
    let conn = await r.connect({})
    await r.dbDrop(dbName).run(conn)
  })
-
+// test for saving images
  test('save image', async t => {
    let db = t.context.db
    t.is(typeof db.saveImage, 'function', 'saveImage is a function')
@@ -42,7 +42,7 @@
    t.is(typeof created.id, 'string')
    t.truthy(created.createdAt)
  })
-
+// test for liking images
  test('Like image', async t => {
    let db = t.context.db
    t.is(typeof db.likeImage, 'function', 'LikeImage is a function')
@@ -54,7 +54,7 @@
    t.true(result.liked)
    t.is(result.likes, image.likes + 1)
  })
-
+// test for getting images
  test('getImage', async t => {
    let db = t.context.db
    t.is(typeof db.getImage, 'function', 'getImage is a function')
@@ -65,7 +65,7 @@
 
    t.deepEqual(created, result)
  })
-
+// test for listing images
  test('list all images', async t => {
    let db = t.context.db
    let images = fixtures.getImages()

@@ -17,3 +17,11 @@ test('extracting hastags from text', t => {
   tags = utils.extractTags(null)
   t.deepEqual(tags, [])
 })
+
+test('encrypt password', t => {
+  let password = 'sha256'
+  let encrypted = '5d5b09f6dcb2d53a5fffc60c4ac0d55fabdf556069d6631545f42aa6e3500f2e'
+
+  let result = utils.encrypt(password)
+  t.is(result, encrypted)
+})
