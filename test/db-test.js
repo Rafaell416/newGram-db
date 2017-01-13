@@ -38,8 +38,8 @@
    t.is(created.likes, image.likes)
    t.is(created.liked, image.liked)
    t.deepEqual(created.tags, ['awesome', 'tags', 'newgram'])
-   t.is(created.user_id, image.user_id)
-   t.is(created.public_id, uuid.encode(created.id))
+   t.is(created.userId, image.userId)
+   t.is(created.publicId, uuid.encode(created.id))
    t.is(typeof created.id, 'string')
    t.truthy(created.createdAt)
  })
@@ -50,7 +50,7 @@
 
    let image = fixtures.getImage()
    let create = await db.saveImage(image)
-   let result = await db.likeImage(create.public_id)
+   let result = await db.likeImage(create.publicId)
 
    t.true(result.liked)
    t.is(result.likes, image.likes + 1)
@@ -62,7 +62,7 @@
 
    let image = fixtures.getImage(3)
    let created = await db.saveImage(image)
-   let result = await db.getImage(created.public_id)
+   let result = await db.getImage(created.publicId)
 
    t.deepEqual(created, result)
 
@@ -127,4 +127,26 @@
 
    let failure = await db.authenticate('foo', 'bar')
    t.false(failure)
+ })
+
+ test('list images by user', async t => {
+   let db = t.context.db
+
+   t.is(typeof db.getImagesByUser, 'function', 'getImagesByUser is a function')
+
+   let images = fixtures.getImages(10)
+   let userId = uuid.uuid()
+   let random = Math.round(Math.random() * images.length)
+
+   let saveImages = []
+   for (let i = 0; i < images.length; i++) {
+     if (i < random) {
+       images[i].userId = userId
+     }
+     saveImages.push(db.saveImage(images[i]))
+   }
+   await Promise.all(saveImages)
+
+   let result = await db.getImagesByUser(userId)
+   t.is(result.length, random)
  })
