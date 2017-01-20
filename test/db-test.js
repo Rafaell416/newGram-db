@@ -9,7 +9,7 @@
 // test for that runs before each test
  test.beforeEach('setup database', async t => {
    const dbName = `newgram_${uuid.v4()}`
-   const db = new Db({db: dbName})
+   const db = new Db({db: dbName, setup: true})
    await db.connect()
    t.context.db = db
    t.context.dbName = dbName
